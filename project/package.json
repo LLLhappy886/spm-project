@@ -1,0 +1,50 @@
+{
+  "name": "project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:test": "vue-tsc && vite build --mode test",
+    "build:pro": "vue-tsc && vite build --mode production",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@types/node": "^24.0.12",
+    "axios": "^1.10.0",
+    "echarts": "^6.0.0",
+    "echarts-liquidfill": "^3.1.0",
+    "element-plus": "^2.10.3",
+    "lodash": "^4.17.21",
+    "nprogress": "^0.2.0",
+    "pinia": "^3.0.3",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/nprogress": "^0.2.3",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/tsconfig": "^0.7.0",
+    "fast-glob": "^3.3.3",
+    "mockjs": "^1.1.0",
+    "postcss": "^8.5.6",
+    "postcss-html": "^1.8.0",
+    "postcss-scss": "^4.0.9",
+    "sass": "^1.89.2",
+    "sass-loader": "^16.0.5",
+    "stylelint": "^16.21.1",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-recess-order": "^7.1.0",
+    "stylelint-config-recommended-scss": "^15.0.1",
+    "stylelint-config-standard": "^38.0.0",
+    "stylelint-config-standard-scss": "^15.0.1",
+    "stylelint-config-standard-vue": "^1.0.0",
+    "stylelint-order": "^7.0.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.3",
+    "vite-plugin-mock": "2.9.8",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vue-tsc": "^2.2.12"
+  }
+}
